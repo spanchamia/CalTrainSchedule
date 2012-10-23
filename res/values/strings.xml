@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">CalSched</string>
+    <string name="dep_st_text_prompt">Select a departure station</string>
+    <string name="arr_st_text_prompt">Select an arrival station</string>
+    <string name="list_prompt">Choose a station</string>
+    <string name="dep_arr_text_prompt">Choose departure/arrival time</string>
+    <string name="dep_arr_prompt">Choose departure/arrival</string>
+    <string name="pick_time">Select Time</string>
+    <string name="date_text_prompt">Choose date</string>
+    <string name="pick_date">Select Date</string>
+    <string name="submit_search">Search</string>
+    <string name="back">Back</string>
+    <style name="labelTextApp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">15px</item>
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">serif</item>
+    </style>    
+    <style name="textApp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16px</item>
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:textColor">#ff0000</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:gravity">right</item>
+    </style>        
+</resources>
